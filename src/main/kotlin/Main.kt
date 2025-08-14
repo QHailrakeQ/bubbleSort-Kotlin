@@ -12,5 +12,5 @@ fun bubbleSort(arr: IntArray) {
 fun main() {
    val nums = intArrayOf(1, 5, 7, 4, 9, 10)
     bubbleSort(nums)
-    println("Sorted array: $nums")
+    println("Sorted array: ${nums.joinToString(", ")}")
 }
